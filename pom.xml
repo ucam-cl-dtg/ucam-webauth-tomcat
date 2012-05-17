@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+
+  <parent>
+    <groupId>uk.ac.cam.cl.dtg</groupId>
+    <artifactId>parentpom</artifactId>
+    <version>1.0.1</version>
+  </parent>
+
+  <groupId>uk.ac.cam.ucs.webauth</groupId>
+  <artifactId>tomcat</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>UCAM Webauth - tomcat</name>
+  <licenses>
+    <license>
+      <name>LGPL 2.1 license</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <dependencies>
+    <dependency>
+      <groupId>uk.ac.cam.ucs</groupId>
+      <artifactId>webauth</artifactId>
+      <version>0.7.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>catalina</artifactId>
+      <version>6.0.35</version>
+    </dependency>
+  </dependencies>
+</project>
