@@ -15,6 +15,11 @@
   <packaging>jar</packaging>
 
   <name>UCAM Webauth - tomcat</name>
+  <scm>
+    <connection>scm:git:git://github.com/ucam-cl-dtg/ucam-webauth-tomcat.git</connection>
+    <developerConnection>scm:git:git@github.com:ucam-cl-dtg/ucam-webauth-tomcat.git</developerConnection>
+    <url>https://github.com/ucam-cl-dtg/ucam-webauth</url>
+  </scm>
   <licenses>
     <license>
       <name>LGPL 2.1 license</name>
