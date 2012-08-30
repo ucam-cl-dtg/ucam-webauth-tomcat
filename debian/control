@@ -1,0 +1,32 @@
+Source: libucamwebauth-tomcat
+Section: java
+Priority: optional
+Maintainer: Daniel Thomas <drt24-debian@srcf.ucam.org>
+Build-Depends: debhelper (>= 7), cdbs, default-jdk, maven-debian-helper (>= 1.5)
+Build-Depends-Indep: libdtgparentpom-java, libtomcat6-java, libucamwebauth-java, default-jdk-doc,  
+ libmaven-javadoc-plugin-java 
+Standards-Version: 3.9.3
+Vcs-Git: git://github.com/ucam-cl-dtg/ucam-webauth-tomcat.git
+Vcs-Browser: https://github.com/ucam-cl-dtg/ucam-webauth-tomcat
+Homepage: https://github.com/ucam-cl-dtg/ucam-webauth-tomcat 
+
+Package: libucamwebauth-tomcat-java
+Architecture: all
+Depends: ${misc:Depends}, ${maven:Depends}
+Recommends: ${maven:OptionalDepends}
+Suggests: libucamwebauth-tomcat-java-doc
+Description: UCAM Webauth - tomcat
+ Tomcat valve for restricting access to tomcat to users authenticated with
+ raven.
+
+Package: libucamwebauth-tomcat-java-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}, ${maven:DocDepends}
+Recommends: ${maven:DocOptionalDepends}
+Suggests: libucamwebauth-tomcat-java
+Description: Documentation for UCAM Webauth - tomcat
+ Tomcat valve for restricting access to tomcat to users authenticated with 
+ raven.
+ .
+ This package contains the API documentation of libucamwebauth-tomcat-java.

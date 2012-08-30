@@ -1,0 +1,17 @@
+Format: http://dep.debian.net/deps/dep5/
+Upstream-Name: UCAM Webauth - tomcat
+Source: https://github.com/ucam-cl-dtg/ucam-webauth-tomcat
+
+Files: *
+Copyright: 2012, DTG
+License: LGPL-2.1
+
+Files: debian/*
+Copyright: 2012, Daniel Thomas <drt24-debian@srcf.ucam.org>
+License: LGPL-2.1
+
+License: LGPL-2.1
+  On Debian GNU/Linux system you can find the complete text of the
+  LGPL-2.1 license in '/usr/share/common-licenses/LGPL-2.1'
+
+
