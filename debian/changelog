@@ -1,3 +1,9 @@
+libucamwebauth-tomcat (0.0.2-2) precise; urgency=low
+
+  * [fd3c080] Specify usj-name of ucamwebauth-tomcat as otherwise it defaults to tomcat
+
+ -- Daniel Thomas <drt24-debian@srcf.ucam.org>  Thu, 30 Aug 2012 14:33:49 +0100
+
 libucamwebauth-tomcat (0.0.2-1) precise; urgency=low
 
   * Initial release of debian packaging
