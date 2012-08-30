@@ -10,7 +10,7 @@
 
   <groupId>uk.ac.cam.ucs.webauth</groupId>
   <artifactId>tomcat</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <packaging>jar</packaging>
 
   <name>UCAM Webauth - tomcat</name>
