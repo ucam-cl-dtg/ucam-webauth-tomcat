@@ -16,7 +16,8 @@
 # and version starting with 3., replacing the version with 3.x
 #   junit junit jar s/3\..*/3.x/
 
+javax.servlet servlet-api jar s/.*/2.5/ * *
 uk.ac.cam.cl.dtg parent pom s/.*/debian/ * *
 uk.ac.cam.ucs webauth jar s/.*/debian/ * *
 uk.ac.cam.ucs.webauth tomcat jar s/.*/debian/ * *
-javax.servlet servlet-api jar s/.*/2.5/ * *
+s/org.apache.tomcat/javax.servlet/ servlet-api jar s/.*/2.5/ * *
