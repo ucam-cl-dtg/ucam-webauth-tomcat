@@ -3,7 +3,7 @@ Section: java
 Priority: optional
 Maintainer: Daniel Thomas <drt24-debian@srcf.ucam.org>
 Build-Depends: debhelper (>= 7), cdbs, default-jdk, maven-debian-helper (>= 1.5)
-Build-Depends-Indep: libdtgparentpom-java, libtomcat6-java, libucamwebauth-java, default-jdk-doc,  
+Build-Depends-Indep: libdtgparentpom-java, libtomcat6-java | libtomcat7-java, libucamwebauth-java, default-jdk-doc,  
  libmaven-javadoc-plugin-java 
 Standards-Version: 3.9.3
 Vcs-Git: git://github.com/ucam-cl-dtg/ucam-webauth-tomcat.git
