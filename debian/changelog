@@ -1,3 +1,9 @@
+libucamwebauth-tomcat (0.0.2-3) utopic; urgency=low
+
+  * Fixes for tomcat 7 and 8
+
+ -- Daniel Thomas <drt24-debian@srcf.ucam.org>  Mon, 17 Nov 2014 16:50:53 +0000
+
 libucamwebauth-tomcat (0.0.2-2) precise; urgency=low
 
   * [fd3c080] Specify usj-name of ucamwebauth-tomcat as otherwise it defaults to tomcat
