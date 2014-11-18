@@ -1,3 +1,9 @@
+libucamwebauth-tomcat (0.0.2-4) utopic; urgency=low
+
+  * Remove tomcat 6 as we are no longer compatible with it to support 7
+
+ -- Daniel Thomas <drt24-debian@srcf.ucam.org>  Tue, 18 Nov 2014 11:19:03 +0000
+
 libucamwebauth-tomcat (0.0.2-3) utopic; urgency=low
 
   * Fixes for tomcat 7 and 8
