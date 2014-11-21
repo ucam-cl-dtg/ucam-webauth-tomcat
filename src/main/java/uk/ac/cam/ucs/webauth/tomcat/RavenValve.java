@@ -180,6 +180,11 @@ public class RavenValve extends ValveBase {
 			session.setNote(WLS_RESPONSE_PARAM, webauthResponse);
 			try {
 				log.debug("RavenValve: validating received response with stored request");
+				if (null == storedRavenReq) {
+				  log.debug("RavenValve: request validation failed null stored request");
+	        response.sendError(500, "RavenValve: request validation failed null stored request");
+	        return;
+				}
 				this.getWebauthValidator().validate(storedRavenReq, webauthResponse);
 				
 				session.setPrincipal(new RavenPrincipal(webauthResponse.get("principal")));
